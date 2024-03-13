@@ -37,5 +37,53 @@ public class VariablesAndDataTypes {
 	}
 
 	public void typeCasting() {
+		// automatically
+		int myInt = 9;
+		double myDouble = myInt; // int to double
+		System.out.println(myInt);
+		System.out.println(myDouble);
+
+		// manually
+		double myDoubleTwo = 9.12d;
+		int myIntTwo = (int) myDoubleTwo; // double to int
+		System.out.println(myDoubleTwo);
+		System.out.println(myIntTwo);
+	}
+
+	public void operators() {
+		// Arithmetic
+		int sum = 100 + 100;
+		int sub = 10 - 2;
+		int mult = 5 * 5;
+		int divis = 150 / 2;
+		int modulus = 11 % 10;
+		int x = 10, y = 10;
+		int increment = ++x;
+		int decrement = --y;
+		System.out.println("Arithmetic operators:");
+		System.out.println("sum: " + sum);
+		System.out.println("sub: " + sub);
+		System.out.println("mult: " + mult);
+		System.out.println("divis: " + divis);
+		System.out.println("modulus: " + modulus);
+		System.out.println("increment: " + increment);
+		System.out.println("decrement: " + decrement);
+
+		// Assignment
+		int assignment = 10;
+		assignment += 5;
+		System.out.println("\n" + "Assignment operators:");
+		System.out.println("addition assignment: " + assignment);
+
+		// Comparison (==, !=, >, <, >=, <=)
+		int a = 1;
+		int b = 2;
+		System.out.println("\n" + "Comparison operators:");
+		System.out.println(a <= b);
+
+		// Logical (&&, ||, !)
+		int c = 10;
+		System.out.println("\n" + "Comparison operators:");
+		System.out.println(c > 1 && c < 11);
 	}
 }
