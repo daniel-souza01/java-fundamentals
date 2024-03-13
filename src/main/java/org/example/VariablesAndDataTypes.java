@@ -86,4 +86,17 @@ public class VariablesAndDataTypes {
 		System.out.println("\n" + "Comparison operators:");
 		System.out.println(c > 1 && c < 11);
 	}
+
+	public void arrays() {
+		System.out.println("arrays:");
+		int[] numbers = {10, 20, 30};
+		numbers[2] = 31;
+		System.out.println(numbers[1]);
+		System.out.println(numbers[2]);
+		System.out.println(numbers.length);
+
+		System.out.println("\nmulti-dimensional arrays:");
+		int[][] numbersArray = {{1, 2, 3}, {4, 5, 6}};
+		System.out.println(numbersArray[1][2]);
+	}
 }
